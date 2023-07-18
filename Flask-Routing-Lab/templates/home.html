@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>netroulette</title>
+  <link href="{{url_for('static', filename = 'css/style.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{url_for('static', filename = 'js/script.js')}}"/>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <h1>NetRoulette</h1>
+  <p>pray you won't get hacked</p>
+
+  <button id="bn" onclick="spin()">try your luck</button>
+  <p id="Leprechaun">** lucky you! you have found a Leprechaun! **</p>
+  <img src="https://media.istockphoto.com/id/511013050/nl/vector/roulette-wheel-drawing.jpg?s=612x612&w=0&k=20&c=MGi2sbVdyelnehlo7h91vwYJXKeVFYMTtFQBIWOrkk4="></img>
+  <div/>
+    <a href="/site-of-the-week">**site of the week**</a>
+    <div/>
+    <a href="/about">about</a>
 </body>
+
 </html>

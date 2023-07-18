@@ -9,8 +9,17 @@ app = Flask(  # Create a flask app
 
 # Your code should be below
 
+@app.route("/")
+def home():
+    return render_template("home.html")
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
+@app.route("/site-of-the-week")
+def sotw():
+    return render_template("site-of-the-week.html")
 
 # Your code should be above
 
